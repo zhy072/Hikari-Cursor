@@ -96,6 +96,6 @@ Helpers: files with the same name (e.g. packs that ship one `busy.ani` per color
 - Uses private system APIs. If it breaks after a major macOS upgrade, run `mousecur doctor` first.
 - The binary is ad-hoc signed for personal use; redistribution requires re-signing.
 
-## Credits
+## License
 
-Same SkyLight private-API approach as [Mousecape](https://github.com/alexzielenski/Mousecape) and [MaCursor](https://github.com/writronic/MaCursor); the macOS cursor identifier tables reference those projects.
+[MIT](LICENSE) © 2026 zhy072

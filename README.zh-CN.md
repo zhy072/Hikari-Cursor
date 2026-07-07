@@ -96,6 +96,6 @@
 - 使用了系统私有接口,大版本升级后如失效,先跑 `mousecur doctor` 检查。
 - 二进制为本机 ad-hoc 签名,只适合自用,分发需要重新签名。
 
-## 致谢
+## 许可证
 
-与 [Mousecape](https://github.com/alexzielenski/Mousecape) / [MaCursor](https://github.com/writronic/MaCursor) 同一套 SkyLight 私有接口;macOS 光标标识符表参考了这两个项目。
+[MIT](LICENSE) © 2026 zhy072

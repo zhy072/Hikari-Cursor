@@ -1,0 +1,16 @@
+# Swift 构建产物
+.build/
+*.o
+*.swiftmodule
+
+# 分发产物(通过 GitHub Release 发布,不进仓库)
+dist/
+*.dmg
+*.zip
+
+# macOS
+.DS_Store
+
+# 编辑器
+*.xcuserstate
+.swiftpm/

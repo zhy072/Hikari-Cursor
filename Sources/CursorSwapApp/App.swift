@@ -222,19 +222,16 @@ struct ContentView: View {
                         Button {
                             setTarget(entry, [id])
                         } label: {
-                            if let img = MacCursorGlyph.image(for: id) {
-                                Image(nsImage: img)
-                            }
-                            Text(Slots.name(for: id))
+                            Label(Slots.name(for: id),
+                                  systemImage: MacCursorGlyph.symbolName(for: id))
                         }
                     }
                 }
             }
         } label: {
             HStack(spacing: 5) {
-                if let first = e.targetIdentifiers.first,
-                   let img = MacCursorGlyph.image(for: first) {
-                    Image(nsImage: img)
+                if let first = e.targetIdentifiers.first {
+                    Image(systemName: MacCursorGlyph.symbolName(for: first))
                 } else {
                     Image(systemName: "slash.circle").foregroundStyle(.orange)
                 }
